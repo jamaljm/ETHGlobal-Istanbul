@@ -1,18 +1,18 @@
 "use client";
 
+import Link from "next/link";
 import React from "react";
 import { useState } from "react";
 
-
 export default function Login() {
-  	const [isNetworkSwitchHighlighted, setIsNetworkSwitchHighlighted] =
-      useState(false);
-    const [isConnectHighlighted, setIsConnectHighlighted] = useState(false);
+  const [isNetworkSwitchHighlighted, setIsNetworkSwitchHighlighted] =
+    useState(false);
+  const [isConnectHighlighted, setIsConnectHighlighted] = useState(false);
 
-    const closeAll = () => {
-      setIsNetworkSwitchHighlighted(false);
-      setIsConnectHighlighted(false);
-    };
+  const closeAll = () => {
+    setIsNetworkSwitchHighlighted(false);
+    setIsConnectHighlighted(false);
+  };
   return (
     <section className="relative py-12 bg-gray-900 sm:py-16 lg:py-20">
       <div className="absolute inset-0 overflow-hidden">
@@ -79,12 +79,13 @@ export default function Login() {
                 </div>
               </div>
 
-              <button
+              <Link
+                href="/dashboard"
                 type="submit"
                 className="flex mt-4 font-body font-medium items-center justify-center w-full px-8 py-4 text-base  text-white transition-all duration-200 bg-gray-900 border border-transparent rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-pj hover:bg-gray-600"
               >
                 Create account
-              </button>
+              </Link>
 
               <svg
                 className="w-auto h-4 mx-auto mt-8 text-gray-300"
