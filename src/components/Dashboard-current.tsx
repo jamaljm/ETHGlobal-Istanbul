@@ -206,7 +206,7 @@ export default function Dashboard() {
 
                                 <td className="hidden px-4 py-4 text-sm font-medium text-gray-900 sm:px-6 lg:table-cell whitespace-nowrap">
                                   <button className="py-2 px-12 bg-blue-600 text-white rounded-xl">
-                                    Bett Now
+                                    Bet Now
                                   </button>{" "}
                                 </td>
                               </tr>
