@@ -138,7 +138,7 @@ export default function Dashboard() {
                     <Link
                       href="/dashboard"
                       title=""
-                      className="flex text-black bg-white/90 py-2 px-12 rounded-xl"
+                      className="flex text-white hover:text-black hover:bg-white/90  py-2 px-12 rounded-xl"
                     >
                       Upcoming
                     </Link>
@@ -152,7 +152,7 @@ export default function Dashboard() {
                     <Link
                       href="/dashboard-past"
                       title=""
-                      className="flex text-white hover:text-black hover:bg-white/90   py-2 px-12 rounded-xl"
+                      className="flex text-black bg-white/90  py-2 px-12 rounded-xl"
                     >
                       Past
                     </Link>
