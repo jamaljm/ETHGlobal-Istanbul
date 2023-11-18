@@ -4,7 +4,7 @@ import React from "react";
 export default function Hero() {
   return (
     <>
-      <div className="">
+      <div className="min-h-screen">
         <div className="py-4 bg-black/90 sm:py-6" x-data="{expanded: false}">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="flex items-center justify-between">
